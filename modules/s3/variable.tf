@@ -1,3 +1,3 @@
 variable "bucket_name" {
-    default = "my-moduleclass2026"
+  default = "my-moduleclass2026"
 }

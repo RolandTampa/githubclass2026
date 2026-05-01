@@ -1,13 +1,13 @@
-module "ec2"{
+module "ec2" {
   source = "./modules/ec2"
-  
+
 }
-module "s3"{
+module "s3" {
   source = "./modules/s3"
 }
-module "vpc"{
+module "vpc" {
   source = "./modules/vpc"
 }
-module "iam"{
+module "iam" {
   source = "./modules/iam"
 }

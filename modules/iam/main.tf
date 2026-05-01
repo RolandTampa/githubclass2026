@@ -1,4 +1,8 @@
 resource "aws_iam_user" "example" {
-    name = "iamclass"
+  name = var.iam_user_name
+
+  tags = {
+    Name = local.iam_tag
+  }
 }
 
